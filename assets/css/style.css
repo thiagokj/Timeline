@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap");
 
+:root {
+  --linear-gradient: linear-gradient(to top right, #d16ba5, #86a8e7, #5ffbf1);
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #474e5d;
+  /* background-color: #474e5d; */
+  background: var(--linear-gradient);
   font-family: "Nunito", sans-serif;
 }
 
@@ -99,6 +104,13 @@ body {
   background-color: white;
   position: relative;
   border-radius: 6px;
+}
+
+span {
+  background-color: #810ca8;
+  border-radius: 2px;
+  padding: 2px;
+  color: #fff;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
